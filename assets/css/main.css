@@ -54,6 +54,31 @@ i::before{
 	width: 100vw;
 	position: relative;
 }
+
+.contenedorG{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.contenedorC{
+	width: var(--anchoContainer);
+	max-width: calc(960px - (var(--margenGlobal) * 2));
+	display: flex;
+}
+.margen1{
+	margin-left: var(--margenGlobal);
+}
+.padding1{
+	padding-left: var(--margenGlobal);
+}
+.fondo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
 	
 @-ms-viewport {
 	width: device-width;
@@ -255,7 +280,6 @@ div#ventanaPOP {
 	justify-content: center;
 	align-items: center;
 }
-
 
 
 
