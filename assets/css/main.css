@@ -341,7 +341,7 @@ nav#menu {
 			transform: translateY(12.121%);
 		}
 }
-@media (min-aspect-ratio: 9/13) {
+@media (min-aspect-ratio: 9/13) and (orientation:landscape) {
 	div#inicio .fondo img {
 		transform: translateY(0%);
 	}
