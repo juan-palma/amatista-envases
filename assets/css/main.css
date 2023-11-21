@@ -616,7 +616,12 @@ nav#menu {
 	Media Queries
 ========================================================================== */
 @media only screen and (max-width: 680px) {
-	
+	nav#menu {
+		padding: 10px 0px;
+	}
+		div#logo {
+			height: 28px;
+		}
 }
 
 
