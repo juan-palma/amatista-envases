@@ -305,6 +305,13 @@ nav#menu {
 			justify-content: flex-end;
 			grid-gap: 40px;
 		}
+			div#logo {
+				height: 74px;
+			}
+				div#logo img {
+					width: auto;
+					height: 100%;
+				}
 
 
 
