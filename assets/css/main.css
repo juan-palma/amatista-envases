@@ -276,6 +276,14 @@ div#ventanaPOP {
 /* ==========================================================================
 	Estilos visiales del sitio.
 ========================================================================== */
+#fondo_body{
+	background : var(--colorBackDark);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+}
+
 nav#menu {
     display: flex;
     justify-content: center;
