@@ -278,7 +278,7 @@ div#ventanaPOP {
 	Estilos visiales del sitio.
 ========================================================================== */
 #fondo_body{
-	background : var(--colorBackDark);
+	background : white;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
