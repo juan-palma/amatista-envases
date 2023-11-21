@@ -495,13 +495,14 @@ figure.effect-milo img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 0.5;
+	opacity: 1;
 	backface-visibility: hidden;
 
-	transform: translate3d(-30px,0,0) scale(1.12);
+	
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+	transform: translate3d(-30px,0,0) scale(1.12);
 }
 
 figure.effect-milo:hover img {
@@ -510,11 +511,22 @@ figure.effect-milo:hover img {
 	transform: translate3d(0,0,0) scale(1);
 }
 
-figure.effect-milo h2 {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	padding: 1em 1.2em;
+figure.effect-milo h3 {
+    font-size: clamp(28px, 3vw, 50px);
+    color: black;
+	opacity: 1;
+
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0,0);
+
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+figure.effect-milo:hover h3{
+	opacity: 0;
+	-webkit-transform: translate3d(0,0,0) scale(2);
+	transform: translate3d(0,0,0) scale(2);
 }
 
 figure.effect-milo p {
