@@ -459,22 +459,7 @@ div#empresa .container {
 				aspect-ratio: 1;
 				overflow: hidden;
 			}
-				div#articulosBox article img {
-					width: 100%;
-					height: 100%;
-					position: absolute;
-					object-fit: cover;
-					object-position: center;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					opacity: 0.5;
-
-					transform: translate3d(-30px,0,0) scale(1.12);
-					-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-					transition: opacity 0.35s, transform 0.35s;
-					-webkit-transform: translate3d(-30px,0,0) scale(1.12);
-				}
+				
 				
 
 /*---------------*/
@@ -500,6 +485,24 @@ figure.effect-milo {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 } */
+figure.effect-milo img {
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	object-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.5;
+	backface-visibility: hidden;
+
+	transform: translate3d(-30px,0,0) scale(1.12);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+}
 
 figure.effect-milo:hover img {
 	opacity: 1;
