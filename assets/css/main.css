@@ -314,7 +314,7 @@ nav#menu {
 				}
 
 #inicio{
-	height: 62vh;
+	height: 74vh;
 }
 	div#inicio .fondo {
 		overflow: hidden;
@@ -341,11 +341,18 @@ nav#menu {
 			transform: translateY(12.121%);
 		}
 }
-@media (min-aspect-ratio: 9/13) and (orientation:landscape) {
-	div#inicio .fondo img {
-		transform: translateY(0%);
-	}
+@media (min-aspect-ratio: 13/9) and (orientation:landscape) {
+	
 }
+@media (min-aspect-ratio: 13/9) and (orientation:landscape) {
+	#inicio{
+		height: 62vh;
+	}
+		div#inicio .fondo img {
+			transform: translateY(0%);
+		}
+}
+
 
 
 
