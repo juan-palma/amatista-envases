@@ -537,7 +537,7 @@ figure.effect-milo p {
     height: 16%;
     right: 0px;
     bottom: 0px;
-    background-color: #000000c4;
+    background-color: rgb(50, 7, 52);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -545,6 +545,7 @@ figure.effect-milo p {
 	padding-left: 30%;
     color: antiquewhite;
 	opacity: 0;
+	cursor: pointer;
 
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -567,6 +568,9 @@ figure.effect-milo:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+figure.effect-milo p:hover{
+	font-size: 120%;
 }
 
 div#articulosBox article figcaption {
