@@ -313,7 +313,19 @@ nav#menu {
 					width: auto;
 					height: 100%;
 				}
-				
+
+			ul#menuBox li {
+				font-size: 120%;
+				font-weight: 500;
+				color: #862671;
+				cursor: pointer;
+
+				transition: all 200ms ease-in-out;
+			}
+			ul#menuBox li:hover{
+				color: #862671;
+			}
+
 			div#menuMobileBox {
 				display: none;
 			}
