@@ -340,7 +340,7 @@ nav#menu {
 		grid-gap: 40px;
 	}
 		div#inicio .container .logo img {
-			height: 16vh;
+			height: 12vh;
 		}
 		div#slogan {
 			font-size: clamp(12px, 1.3vw, 40px);
@@ -372,7 +372,7 @@ nav#menu {
 }
 @media screen and (orientation:portrait) and (min-aspect-ratio: 2/3){
 	div#inicio .container .logo img {
-		height: 22vw;
+		height: 16vw;
 	}
 }
 @media (min-aspect-ratio: 13/9) and (orientation:landscape) {
