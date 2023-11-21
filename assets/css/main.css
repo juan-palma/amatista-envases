@@ -345,9 +345,6 @@ nav#menu {
 	
 }
 @media (min-aspect-ratio: 13/9) and (orientation:landscape) {
-	#inicio{
-		height: 62vh;
-	}
 		div#inicio .fondo img {
 			transform: translateY(0%);
 		}
