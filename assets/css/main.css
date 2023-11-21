@@ -402,11 +402,32 @@ nav#menu {
 	
 
 
-
-#textoEmpresa{
-	background-color: #fff1f5;
-	padding: 22px;
+div#empresa .container {
+    padding-bottom: 8vh;
+    display: flex;
+    justify-content: center;
 }
+	#textoEmpresa {
+		background-color: #fff1f5b5;
+		padding: 70px;
+		width: 68%;
+		max-width: 700px;
+		border-radius: 43px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		box-shadow: 4px 10px 26px #0003;
+		transform: translateY(-46px);
+	}
+		#textoEmpresa h2 {
+			font-size: clamp(28px, 2.4vw, 48px);
+			margin-bottom: 25px;
+		}
+		#textoEmpresa p {
+			color: #862671;
+		}
 
 
 
@@ -645,6 +666,11 @@ nav#menu {
 		div#logo {
 			height: 28px;
 		}
+
+	div#textoEmpresa {
+		width: 96%;
+		padding: 60px;
+	}
 }
 
 
