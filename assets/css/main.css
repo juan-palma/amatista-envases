@@ -307,7 +307,7 @@ nav#menu {
 			grid-gap: 40px;
 		}
 			div#logo {
-				height: 74px;
+				height: 52px;
 			}
 				div#logo img {
 					width: auto;
@@ -606,7 +606,12 @@ nav#menu {
 	Media Queries
 ========================================================================== */
 @media only screen and (max-width: 680px) {
-	
+	nav#menu {
+		padding: 10px 0px;
+	}
+		div#logo {
+			height: 28px;
+		}
 }
 
 
@@ -629,12 +634,7 @@ nav#menu {
 	Media Queries
 ========================================================================== */
 @media only screen and (max-width: 480px) {
-	nav#menu {
-		padding: 10px 0px;
-	}
-		div#logo {
-			height: 28px;
-		}
+	
 }
 
 
