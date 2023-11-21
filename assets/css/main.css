@@ -38,7 +38,7 @@ body, button, input, select, textarea, ::after, ::before{
 	letter-spacing: 0.05em;
 	color: var(--colorTexto);
 }
-nav main footer {
+nav, main, footer {
 	display: block;
 	width: 100%;
 }
