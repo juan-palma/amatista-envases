@@ -332,9 +332,10 @@ nav#menu {
 		}
 
 	div#inicio .container {
+		display: flex;
 		justify-content: center;
 		position: relative;
-		top: -12vh;
+		top: -13vh;
 		align-items: center;
 		grid-gap: 40px;
 	}
@@ -364,6 +365,12 @@ nav#menu {
 			object-position: top;
 			transform: translateY(12.121%);
 		}
+	div#inicio .container {
+		top: -6vh;
+	}
+		
+}
+@media screen and (orientation:portrait) and (min-aspect-ratio: 2/3){
 	div#inicio .container .logo img {
 		height: 22vw;
 	}
