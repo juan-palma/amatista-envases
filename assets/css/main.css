@@ -330,6 +330,29 @@ nav#menu {
 			object-position: top;
 			transform: translateY(12.121%)
 		}
+
+	div#inicio .contenedorC {
+		justify-content: center;
+		position: relative;
+		top: -12vh;
+		align-items: center;
+		grid-gap: 40px;
+	}
+		div#inicio .contenedorC .logo img {
+			height: 16vh;
+		}
+		div#slogan {
+			font-size: clamp(18px, 1.3vw, 40px);
+		}
+			div#slogan h2 {
+				font-weight: 400;
+				font-family: 'Montserrat';
+			}
+			div#slogan span {
+				font-family: 'Cormorant SC';
+				font-size: 163%;
+				font-weight: 900;
+			}
 @media screen and (orientation:portrait){
 	#inicio{
 		height: 40vh;
@@ -341,6 +364,9 @@ nav#menu {
 			object-position: top;
 			transform: translateY(12.121%);
 		}
+	div#inicio .contenedorC .logo img {
+		height: 22vw;
+	}
 }
 @media (min-aspect-ratio: 13/9) and (orientation:landscape) {
 	
@@ -350,22 +376,7 @@ nav#menu {
 			transform: translateY(0%);
 		}
 }
-	div#inicio .contenedorC {
-		justify-content: center;
-		position: relative;
-		top: -12vh;
-		align-items: center;
-		grid-gap: 40px;
-	}
-		div#inicio .contenedorC .logo img {
-			height: 140px;
-		}
-		div#slogan {
-			font-size: clamp(10px, 1.3vw, 28px);
-		}
-			div#slogan h2 {
-				font-weight: 400;
-			}
+	
 
 
 
