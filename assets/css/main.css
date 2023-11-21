@@ -603,13 +603,17 @@ nav#menu {
 /* ==========================================================================
 	Estilos para un especto acostado pero en dispositivos medianos
 ========================================================================== */
-@media screen and (orientation:landscape) and (max-width: 980px) and (max-height: 520px){
+@media screen and (orientation:landscape) and (max-width: 980px) and (max-height: 600px){
 	nav#menu {
 		padding: 10px 0px;
 	}
 		div#logo {
 			height: 28px;
 		}
+		
+	#inicio {
+		height: 86vh;
+	}
 }
 
 /* ==========================================================================
