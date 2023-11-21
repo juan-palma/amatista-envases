@@ -323,7 +323,7 @@ nav#menu {
 				transition: all 200ms ease-in-out;
 			}
 			ul#menuBox li:hover{
-				color: #862671;
+				color: crimson;
 			}
 
 			div#menuMobileBox {
