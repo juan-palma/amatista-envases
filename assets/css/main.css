@@ -343,7 +343,7 @@ nav#menu {
 			height: 16vh;
 		}
 		div#slogan {
-			font-size: clamp(18px, 1.3vw, 40px);
+			font-size: clamp(12px, 1.3vw, 40px);
 		}
 			div#slogan h2 {
 				font-weight: 400;
@@ -356,7 +356,7 @@ nav#menu {
 			}
 @media screen and (orientation:portrait){
 	#inicio{
-		height: 40vh;
+		height: 48vh;
 	}
 		div#inicio .fondo img {
 			width: 100%;
@@ -629,7 +629,12 @@ nav#menu {
 	Media Queries
 ========================================================================== */
 @media only screen and (max-width: 480px) {
-	
+	nav#menu {
+		padding: 10px 0px;
+	}
+		div#logo {
+			height: 28px;
+		}
 }
 
 
@@ -645,7 +650,12 @@ nav#menu {
 	Media Queries
 ========================================================================== */
 @media only screen and (max-width: 370px) {
-	
+	div#slogan {
+		text-align: center;
+	}
+	div#inicio .container .logo {
+		display: none;
+	}
 }
 
 
