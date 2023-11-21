@@ -331,14 +331,14 @@ nav#menu {
 			transform: translateY(12.121%)
 		}
 
-	div#inicio .contenedorC {
+	div#inicio .container {
 		justify-content: center;
 		position: relative;
 		top: -12vh;
 		align-items: center;
 		grid-gap: 40px;
 	}
-		div#inicio .contenedorC .logo img {
+		div#inicio .container .logo img {
 			height: 16vh;
 		}
 		div#slogan {
@@ -364,7 +364,7 @@ nav#menu {
 			object-position: top;
 			transform: translateY(12.121%);
 		}
-	div#inicio .contenedorC .logo img {
+	div#inicio .container .logo img {
 		height: 22vw;
 	}
 }
