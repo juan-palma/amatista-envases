@@ -451,11 +451,13 @@ div#empresa .container {
 			align-items: stretch;
 		}
 			div#articulosBox article {
+				position: relative;
 				flex: 1 1 33.333%;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				aspect-ratio: 1;
+				overflow: hidden;
 			}
 
 /*---------------*/
@@ -463,7 +465,7 @@ div#empresa .container {
 /*---------------*/
 
 figure.effect-milo {
-	background: #2e5d5a;
+	background: #1c1c1c;
 }
 
 figure.effect-milo img {
