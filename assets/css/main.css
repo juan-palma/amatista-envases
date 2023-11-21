@@ -313,6 +313,10 @@ nav#menu {
 					width: auto;
 					height: 100%;
 				}
+				
+			div#menuMobileBox {
+				display: none;
+			}
 
 #inicio{
 	height: 74vh;
@@ -610,7 +614,7 @@ nav#menu {
 		div#logo {
 			height: 28px;
 		}
-		
+
 	#inicio {
 		height: 86vh;
 	}
