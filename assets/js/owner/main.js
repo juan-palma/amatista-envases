@@ -1,6 +1,11 @@
 
 function iniciar() {
 	
+	function btnMobileActive(e) {
+		this.classList.toggle('activo');
+	}
+	const btnMobile = document.getElementById('menuBoxMobile');
+	btnMobile.addEventListener('click', btnMobileActive);
 
 }
 
