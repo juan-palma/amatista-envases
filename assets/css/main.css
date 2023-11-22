@@ -660,6 +660,14 @@ div#contacto .fondo {
 				align-items: flex-start;
 				text-align: left;
 			}
+				div#redes .container div#redesBox span {
+					margin-bottom: 38px;
+				}
+				div#redes .container div#redesBox .redesMain {
+					display: flex;
+					grid-gap: 36px;
+				}
+				
 
 
 
@@ -719,7 +727,7 @@ div#contacto .fondo {
 /* Effect 1a */
 .hi-icon-effect-1a .hi-icon:hover {
 	background: rgba(255,255,255,1);
-	color: #41ab6b;
+	color: #862671;
 }
 
 .hi-icon-effect-1a .hi-icon:hover:after {
@@ -733,7 +741,7 @@ div#contacto .fondo {
 /* Effect 1b */
 .hi-icon-effect-1b .hi-icon:hover {
 	background: rgba(255,255,255,1);
-	color: #41ab6b;
+	color: #862671;
 }
 
 .hi-icon-effect-1b .hi-icon:after {
@@ -943,6 +951,16 @@ div#contacto .fondo {
 		height: 0px !important;
 		overflow: hidden !important;
 	}
+
+	div#contactoBox {
+		height: auto;
+		font-size: 70%;
+		padding: 50px 20px;
+	}
+		div#redes .container .col3 {
+			flex: 1 1 50%;
+			flex-wrap: wrap;
+		}
 }
 @media only screen and (min-width: 760px){
 	.onlyMobile{
