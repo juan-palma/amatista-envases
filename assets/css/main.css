@@ -643,6 +643,11 @@ div#contacto .fondo {
 		padding: 8vh;
 		align-items: center;
 	}
+		div#redes .container {
+			display: flex;
+			align-content: stretch;
+			grid-gap: 42px;
+		}
 
 
 
