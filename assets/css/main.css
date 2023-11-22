@@ -671,6 +671,21 @@ div#contacto .fondo {
 			div#logoFooter img {
 				width: 146px;
 			}
+		div#footer {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #262626;
+		}
+			div#footer .container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div#footer .container img {
+				width: 200px;
+				height: auto;
+			}
 
 
 
