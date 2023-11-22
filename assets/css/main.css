@@ -327,7 +327,7 @@ nav#menu {
 			}
 
 			div#menuMobileBox {
-				width: 80vw;
+				width: -81vw;
 				height: 100vh;
 				position: fixed;
 				top: 0px;
@@ -341,6 +341,12 @@ nav#menu {
 				padding: 8vw;
 				grid-gap: 32px;
 				color: white;
+
+				-webkit-transition: right 0.35s, -webkit-transform 0.35s;
+				transition: right 0.35s, transform 0.35s;
+			}
+			#menuBoxMobile.activo div#menuMobileBox.activo{
+				width: 80vw;
 			}
 				div#menuMobileBox li {
 					width: auto;
@@ -349,8 +355,8 @@ nav#menu {
 					padding: 8px 4px 8px 24px;
     				text-align: right;
 
-					-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-					transition: opacity 0.35s, transform 0.35s;
+					-webkit-transition: all 0.35s, -webkit-transform 0.35s;
+					transition: all 0.35s, transform 0.35s;
 				}
 				div#menuMobileBox li:hover{
 
@@ -359,9 +365,26 @@ nav#menu {
 				position: relative;
 				z-index: 8000;
 				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 28px;
 			}
-				div#menuMobileBtn img{
-					width: 22px;
+			#menuBoxMobile.activo div#menuMobileBtn {
+				color: #fff;
+			}
+				div#imgClose {
+					display: none;
+				}
+				#menuBoxMobile.activo div#imgClose {
+					display: inherit;
+				}
+				#menuBoxMobile.activo #imgMenuMobile{
+					display: none;
+				}
+				.iconosMobileMenu {
+					display: block;
+					position: absolute;
 				}
 
 #inicio{
