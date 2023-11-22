@@ -676,6 +676,7 @@ div#contacto .fondo {
 			justify-content: center;
 			align-items: center;
 			background-color: #262626;
+			padding: 20px;
 		}
 			div#footer .container {
 				display: flex;
