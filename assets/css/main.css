@@ -685,6 +685,10 @@ div#contacto .fondo {
 		justify-content: center;
 		color: white;
 	}
+	div#contactoBox a {
+		color: white;
+		text-decoration: none;
+	}
 		#contacto h3 {
 			font-size: clamp(28px, 2.4vw, 48px);
 			margin-bottom: 25px;
@@ -705,6 +709,7 @@ div#contacto .fondo {
 		#contacto span:hover{
 			color: #c522a2;
 		}
+		
 
 
 
