@@ -483,9 +483,10 @@ nav#menu {
 		div#slogan {
 			font-size: clamp(12px, 1.3vw, 40px);
 		}
-			div#slogan h2 {
+			div#slogan h1 {
 				font-weight: 400;
 				font-family: 'Montserrat';
+				font-size: 1em;
 			}
 			div#slogan span {
 				font-family: 'Cormorant SC';
