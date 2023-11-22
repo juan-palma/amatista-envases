@@ -535,8 +535,8 @@ figure.effect-milo p {
 	font-size: 100%;
 	cursor: pointer;
 
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: all 0.35s, -webkit-transform 0.35s;
+	transition: all 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-40px,0,0);
 	transform: translate3d(-40px,0,0);
 }
@@ -807,6 +807,16 @@ div#articulosBox article figcaption {
 		width: 96%;
 		padding: 60px;
 	}
+
+	div#articulosBox {
+		flex-direction: column;
+	}
+		div#articulosBox article {
+			flex: 1 1 100%;
+			width: 100%;
+			min-width: 100%;
+			max-width: 100%;
+		}
 }
 
 
