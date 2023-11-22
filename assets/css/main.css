@@ -345,7 +345,7 @@ nav#menu {
 				-webkit-transition: right 0.35s, -webkit-transform 0.35s;
 				transition: right 0.35s, transform 0.35s;
 			}
-			#menuBoxMobile.activo div#menuMobileBox.activo{
+			#menuBoxMobile.activo div#menuMobileBox{
 				right: 0vw;
 			}
 				div#menuMobileBox li {
