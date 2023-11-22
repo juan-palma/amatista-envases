@@ -802,6 +802,20 @@ div#contacto .fondo {
 	opacity: 0;
 }
 
+/* Effect 1a */
+.hi-icon-effect-1a .hi-icon:hover {
+	background: rgba(255,255,255,1);
+	color: #41ab6b;
+}
+
+.hi-icon-effect-1a .hi-icon:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
 /* Effect 1b */
 .hi-icon-effect-1b .hi-icon:hover {
 	background: rgba(255,255,255,1);
