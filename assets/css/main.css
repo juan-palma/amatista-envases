@@ -668,7 +668,9 @@ div#contacto .fondo {
 					grid-gap: 36px;
 				}
 				
-
+			div#logoFooter img {
+				width: 146px;
+			}
 
 
 
