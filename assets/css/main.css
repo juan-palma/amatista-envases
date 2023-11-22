@@ -584,7 +584,7 @@ figure.effect-milo:hover h3{
 figure.effect-milo p {
     position: absolute;
     text-align: right;
-    width: 100%;
+    width: auto;
     height: 16%;
     right: 0px;
     bottom: 0px;
@@ -593,7 +593,6 @@ figure.effect-milo p {
     justify-content: flex-end;
     align-items: center;
     padding: 6%;
-	padding-left: 30%;
     color: antiquewhite;
 	opacity: 0;
 	cursor: pointer;
