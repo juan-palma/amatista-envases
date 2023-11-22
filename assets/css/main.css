@@ -327,11 +327,11 @@ nav#menu {
 			}
 
 			div#menuMobileBox {
-				width: -81vw;
+				width: 80vw;
 				height: 100vh;
 				position: fixed;
 				top: 0px;
-				right: 0px;
+				right: -80vw;
 				background-color: #852671;
 				display: flex;
 				flex-direction: column;
@@ -346,7 +346,7 @@ nav#menu {
 				transition: right 0.35s, transform 0.35s;
 			}
 			#menuBoxMobile.activo div#menuMobileBox.activo{
-				width: 80vw;
+				right: 0vw;
 			}
 				div#menuMobileBox li {
 					width: auto;
