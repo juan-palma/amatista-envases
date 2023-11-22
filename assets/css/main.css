@@ -539,7 +539,6 @@ figure.effect-milo p {
 	padding-left: 30%;
     color: antiquewhite;
 	opacity: 0;
-	font-size: 100%;
 	cursor: pointer;
 
 	-webkit-transition: all 0.35s, -webkit-transform 0.35s;
@@ -565,7 +564,7 @@ figure.effect-milo:hover p {
 	transform: translate3d(0,0,0);
 }
 figure.effect-milo p:hover{
-	font-size: 120%;
+	color: #ddaa01;
 }
 
 div#articulosBox article figcaption {
@@ -613,6 +612,61 @@ div#contacto .fondo {
 			font-size: clamp(28px, 2.4vw, 48px);
 			margin-bottom: 25px;
 		}
+		#contacto p {
+			width: 60%;
+			text-align: center;
+			margin-bottom: 2em;
+			font-size: 120%;
+		}
+		#contacto span {
+			font-size: clamp(14px, 5vw, 34px);
+			cursor: pointer;
+
+			-webkit-transition: color 0.35s, -webkit-transform 0.35s;
+			transition: color 0.35s, transform 0.35s;
+		}
+		#contacto span:hover{
+			color: #c522a2;
+		}
+
+
+
+
+
+
+
+
+
+	div#redes {
+		width: 100%;
+		background-color: #862671;
+		padding: 8vh;
+		align-items: center;
+	}
+
+	/* Effect 1b */
+	.hi-icon-effect-1b .hi-icon:hover {
+		background: rgba(255,255,255,1);
+		color: #41ab6b;
+	}
+
+	.hi-icon-effect-1b .hi-icon:after {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	.hi-icon-effect-1b .hi-icon:hover:after {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+
+
+
 
 
 
