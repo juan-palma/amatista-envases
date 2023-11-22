@@ -13,5 +13,5 @@ requirejs.config({
 	baseUrl: "assets/js/owner",
 	paths: { a: "../animaciones", l: "../librerias", n: "/node_modules"},
 });
-requirejs(["l/modernizr", "l/precarga", "validaciones", "alertas", "peticiones"], iniciar);
+requirejs(["l/modernizr", "l/precarga", "validaciones", "alertas", "peticiones", "l/brands.min", "l/solid.min", "l/fontawesome"], iniciar);
 
