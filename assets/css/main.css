@@ -648,31 +648,25 @@ div#contacto .fondo {
 			align-content: stretch;
 			grid-gap: 42px;
 		}
+			div#redes .container .col3 {
+				flex: 1 1 33.333%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+			}
+			div#redes .container div#redesBox {
+				flex-direction: column;
+				align-items: flex-start;
+				text-align: left;
+			}
 
 
 
 
 
 
-.hi-icon-wrap {
-	text-align: center;
-	margin: 0 auto;
-	padding: 2em 0 3em;
-}
 
-/* .hi-icon {
-	display: inline-block;
-	font-size: 0px;
-	cursor: pointer;
-	margin: 15px 30px;
-	width: 90px;
-	height: 90px;
-	border-radius: 50%;
-	text-align: center;
-	position: relative;
-	z-index: 1;
-	color: #fff;
-} */
 .hi-icon {
     display: flex;
     justify-content: center;
@@ -697,19 +691,6 @@ div#contacto .fondo {
 	-moz-box-sizing: content-box; 
 	box-sizing: content-box;
 }
-
-/* .hi-icon:before {
-	font-family: 'ecoicon';
-	speak: none;
-	font-size: 48px;
-	line-height: 90px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	display: block;
-	-webkit-font-smoothing: antialiased;
-} */
 
 
 /* Effect 1 */
