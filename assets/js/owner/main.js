@@ -9,6 +9,16 @@ function iniciar() {
 
 }
 
+//codigo para avtivar el correo
+function openMailer(element) {
+	const mail = atob("bWFpbHRvOnZlbnRhc0BhbWF0aXN0YS1lbnZhc2VzLmNvbQ==");
+	element.setAttribute("href", mail);
+	element.setAttribute("onclick", "");
+};
+
+
+
+
 
 
 
