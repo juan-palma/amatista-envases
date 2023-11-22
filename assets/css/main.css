@@ -649,7 +649,7 @@ div#contacto .fondo {
 
 
 
-/* .hi-icon-wrap {
+.hi-icon-wrap {
 	text-align: center;
 	margin: 0 auto;
 	padding: 2em 0 3em;
@@ -681,7 +681,7 @@ div#contacto .fondo {
 	box-sizing: content-box;
 }
 
-.hi-icon:before {
+/* .hi-icon:before {
 	font-family: 'ecoicon';
 	speak: none;
 	font-size: 48px;
@@ -692,9 +692,9 @@ div#contacto .fondo {
 	text-transform: none;
 	display: block;
 	-webkit-font-smoothing: antialiased;
-}
+} */
 
-.hi-icon-mobile:before {
+/* .hi-icon-mobile:before {
 	content: "\e009";
 }
 
