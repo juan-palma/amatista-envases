@@ -329,6 +329,12 @@ nav#menu {
 			div#menuMobileBox {
 				display: none;
 			}
+			div#menuMobileBtn{
+
+			}
+				div#menuMobileBtn img{
+					
+				}
 
 #inicio{
 	height: 74vh;
@@ -687,6 +693,7 @@ div#contacto .fondo {
 				width: 200px;
 				height: auto;
 			}
+			
 
 
 
@@ -978,6 +985,13 @@ div#contacto .fondo {
 		div#redes .container .col3 {
 			flex: 1 1 50%;
 			flex-wrap: wrap;
+		}
+
+		div#redes .container {
+			flex-direction: column-reverse;
+		}
+		div#redes .container div#redesBox {
+			margin-top: 20px;
 		}
 }
 @media only screen and (min-width: 760px){
