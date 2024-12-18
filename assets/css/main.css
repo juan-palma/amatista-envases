@@ -585,9 +585,25 @@ div#empresa {
 					align-items: center;
 					aspect-ratio: 1;
 					overflow: hidden;
-					cursor: pointer;
 				}
 				
+		#catalogo {
+			width: 240px;
+			text-align: center;
+			padding: 28px 0px;
+			background-color: darkviolet;
+			border-radius: 16px;
+			margin-top: 51px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		#catalogo:hover{
+			background-color: #c522a2;
+		}
+			#catalogo a{
+				color: white;
+				text-decoration: none;
+			}
 				
 
 /*---------------*/
